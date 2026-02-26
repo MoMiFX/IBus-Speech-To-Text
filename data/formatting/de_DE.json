@@ -1,0 +1,183 @@
+{
+    "description" : {
+        "name" : "Deutsch (Österreich)",
+        "locale" : "de_AT",
+        "comment" : "Deutsch Österreich Formatierungsdatei für ibus-speech-to-text"
+    },
+    "language" : {
+        "digits" : {
+            "null" : "0",
+            "eins" : "1",
+            "zwei" : "2",
+            "drei" : "3",
+            "vier" : "4",
+            "fünf" : "5",
+            "sechs" : "6",
+            "sieben" : "7",
+            "acht" : "8",
+            "neun" : "9"
+         }
+    },
+    "custom" : [{
+        "shortcut": "Control+v",
+        "description": "Text einfügen",
+        "utterances": ["text einfügen"]
+        }, {
+        "shortcut": "Control+BackSpace",
+        "description": "Wort links löschen",
+        "utterances": ["wort löschen"]
+        }, {
+        "shortcut": "Control+z",
+        "description": "Rückgängig",
+        "utterances": ["rückgängig"]
+        }, {
+        "shortcut": "Return",
+        "description": "Eingabe",
+        "utterances": ["bestätigen", "eingabe", "enter", "return"]
+        }, {
+        "shortcut": "Shift+Control+Delete",
+        "description": "Zeile löschen",
+        "utterances": ["zeile löschen"]
+        }],
+     "commands" : [{
+        "value" : "digits",
+        "utterances" : ["ziffern verwenden", "ziffern"],
+        "description" : "Ziffernmodus umschalten"
+        }, {
+        "value" : "spelling",
+        "utterances" : ["buchstabiermodus"],
+        "description" : "Buchstabiermodus starten"
+        }, {
+        "value" : "dictation",
+        "utterances" : ["diktat starten", "diktat"],
+        "description" : "Diktiermodus starten"
+        }, {
+        "value" : "literal",
+        "utterances" : ["diktat ohne formatierung"],
+        "description" : "Diktat ohne Formatierung"
+        }, {
+        "value" : "cancel",
+        "utterances" : ["abbrechen"],
+        "description" : "Letzte Eingabe abbrechen"
+        }],
+    "case" : [{
+        "value" : "upper all",
+        "utterances" : ["großbuchstaben"],
+        "description" : "Nur Großbuchstaben"
+        }, {
+        "value" : "upper",
+        "utterances" : ["nächstes großschreibung", "nächstes groß"],
+        "description" : "Nächstes Wort großschreiben"
+        }, {
+        "value" : "title",
+        "utterances" : ["jeden anfang groß"],
+        "description" : "Jeden Wortanfang großschreiben"
+        }, {
+        "value" : "capitalize",
+        "utterances" : ["großschreiben", "groß"],
+        "description" : "Großbuchstaben"
+        }, {
+        "value" : "lower",
+        "utterances" : "kleinschreibung",
+        "description" : "Kleinbuchstaben"
+        }],
+    "diacritics" :[],
+    "punctuation" : [{
+        "value" : "@",
+        "utterances" : ["at zeichen", "at"]
+        }, {
+        "value" : "\t",
+        "utterances" : "tabulator",
+        "description" : "Tabulator"
+        }, {
+        "value" : ",",
+        "utterances" : ["komma", "beistrich"]
+        }, {
+        "value" : ".",
+        "utterances" : ["punkt"]
+        }, {
+        "value" : ";",
+        "utterances" : ["strichpunkt", "semikolon"]
+        }, {
+        "value" : ":",
+        "utterances" : "doppelpunkt"
+        }, {
+        "value" : "!",
+        "utterances" : ["ausrufezeichen", "rufzeichen"]
+        }, {
+        "value" : "?",
+        "utterances" : ["fragezeichen"]
+        }, {
+        "value" : " ",
+        "utterances" : ["leerzeichen", "space"]
+        }, {
+        "value" : "\n",
+        "utterances" : ["neue zeile", "zeilenumbruch"]
+        }, {
+        "value" : "(",
+        "utterances" : ["klammer auf"]
+        }, {
+        "value" : ")",
+        "utterances" : ["klammer zu"]
+        }, {
+        "value" : "\"",
+        "utterances" : ["anführungszeichen"]
+        }, {
+        "value" : "'",
+        "utterances" : "apostroph"
+        }, {
+        "value" : "+",
+        "utterances" : ["plus"]
+        }, {
+        "value" : "-",
+        "utterances" : ["bindestrich", "minus"]
+        }, {
+        "value" : "_",
+        "utterances" : ["unterstrich"]
+        }, {
+        "value" : "#",
+        "utterances" : ["raute"]
+        }, {
+        "value" : "°",
+        "utterances" : ["grad"]        
+        }, {
+        "value" : "^",
+        "utterances" : ["modulo"]
+        }, {
+        "value" : "§",
+        "utterances" : ["paragraph"]
+        }, {
+        "value" : "$",
+        "utterances" : ["dollar"]
+        }, {
+        "value" : "&",
+        "utterances" : ["ampersand", "kaufmannsund", "ampere sand"]
+        }, {
+        "value" : "[",
+        "utterances" : ["eckige klammer auf"]
+        }, {
+        "value" : "]",
+        "utterances" : ["eckige klammer zu"]
+        }, {
+        "value" : "{",
+        "utterances" : ["geschwungene klammer auf"]
+        }, {
+        "value" : "}",
+        "utterances" : ["geschwungene klammer zu"]
+        }, {
+        "value" : "=",
+        "utterances" : ["ist gleich"]
+        }, {
+        "value" : "*",
+        "utterances" : ["stern", "asterisk"]
+        }, {
+        "value" : "ß",
+        "utterances" : ["scharfes s"]
+        }, {
+        "value" : "~",
+        "utterances" : ["tilde", "tilda"]
+        }, {
+        "value" : "\/",
+        "utterances" : "schrägstrich"
+    }]
+}
